@@ -1,0 +1,16 @@
+pipeline {
+agent any 
+stages{
+stage('Hello world1') {
+steps {
+  sh 'Hello world1'
+}
+}
+
+stage('Hello world2'){
+steps {
+   sh 'Hello world2'   
+     }
+    }
+  }
+}
